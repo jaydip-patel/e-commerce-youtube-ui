@@ -19,7 +19,9 @@ module.exports = function(config) {
       'test/karma.conf.js',
       
       'src/app/register/register.component.spec.ts',
-      
+      'src\app\login\login.component.spec.ts',
+      'src\app\product-view-details\product-view-details.component.spec.ts',
+      'src\app\show-product-details\show-product-details.component.spec.ts'
      // 'src/app/register/register.component.ts'
       //'test.ts'
       //'main.ts'
@@ -34,7 +36,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      'src/app/register/register.component.spec.ts': ['typescript']
+      'src/app/register/register.component.spec.ts': ['karma-typescript']
     },
 
 
